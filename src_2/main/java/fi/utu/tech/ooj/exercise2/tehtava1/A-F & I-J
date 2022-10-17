@@ -1,0 +1,56 @@
+A)
+The inheritance hierarchy of ArrayList is the following:
+java.lang.Object <- java.util.AbstractCollection<E> <- java.util.AbstractList<E> <- java.util.ArrayList<E>
+
+B)
+The inheritance hierarchy of LinkedList is the following:
+java.lang.Object <- java.util.AbstractCollection<E> <- java.util.AbstractList<E> <-
+java.util.AbstractSequentialList<E> <- java.util.LinkedList<E>
+
+C)
+This makes the code more modular and thus more readable. By utilizing a single class in many different cases you
+avoid writing redundant code.
+
+D)
+ArrayList implements RandomAccess and LinkedList implements Deque.
+
+RandomAccess is a so called marker interface which means it doesn't have any methods or constants inside of it.
+It is used to indicate that a list implementation supports fast random access.
+
+Deque is a collection of methods which adds support for insertion and removing and adding an element from both ends.
+
+E)
+A method signature added in the interface must be defined in the class that extends the interface. By this way you
+can avoid writing error prone code. Also, Oracle added support for defining methods in interfaces in Java 8
+so you can implement once written method in different classes.
+
+F)
+Yes you can because both LinkedList and ArrayList implements Collection-interface.
+
+I)
+There is only two methods defined in the class 'Stack' pop() and push() which both are meant to modify the element on top of
+the stack. However, you can always define a new method to pop elements on top of the stack and save them into a buffer
+and push them back after removing an element from specified index of the stack.
+
+J)
+s.concat(" 17");
+jshell> String s = "joo";
+s ==> "joo"
+
+jshell> s.concat(" 17");
+$2 ==> "joo 17"
+
+***********************
+
+sb.append(" 17");
+jshell> StringBuilder sb = new StringBuilder("joo");
+sb ==> joo
+
+jshell> sb.append(" 17");
+$2 ==> joo 17
+
+***********************
+
+The result is the same because the methods are defined to do the same thing. Concatenation method for string builder is
+just named append because the word concatenate is often used in the context of strings. Append works also with
+incompatible types.

@@ -1,0 +1,26 @@
+A)
+Literaaliluokkaa, sillä tiedon arvo on aina sama kun jokin määrityksessä luetelluista arvoista ja luokasta luotavien
+olioiden määrä on ennalta tiedetty.
+
+B)
+Esiintymäkohtaista sisäluokkaa, sillä näin saamme käyttöömme myös ulkoluokan olioiden operaatiot.
+
+C)
+Funktioliteraalia, Näin saamme selkeästi abstraktoitua yksinkertaisen laskutoimituksen asiakkaan käytettäväksi.
+
+D)
+Staattinen sisäluokka, sillä saamme jaettua tämän yläluokan operaatiot ja oliot sen aliluokkien kanssa.
+Näihin olioihin pystymme soveltamaan myös luokan ulkoisia funktioliteraaleja.
+
+E)
+Literaaliluokkaa. Näin pystymme varmistumaan arvoparien määrän ylittymisestä ja tallentamaan avain-arvo -pareja olioihin.
+
+F)
+Tietueluokkaan voidaan tallettaa ei polymorfista muuttumatonta dataa, joten se olisi sopiva valinta.
+
+G)
+Tietueluokalla voidaan mallintaa myös kahden erillisen luokan toiminnallisuutta, sillä rajapinnan yli tehtävät kutsut tulee
+olla ei polymorfisia.
+
+H)
+Nimettömän luokan luominen kuulostaa hyvältä vaihtoehdolta, sillä anonyymien metodien ja luokkien käyttö on muistitehokasta.

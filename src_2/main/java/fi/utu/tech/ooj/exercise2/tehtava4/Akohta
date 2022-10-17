@@ -1,0 +1,8 @@
+In my opinion the entirety is structured in a clear and modular way. The existence of all operations
+and attributes is justifiable which is not always self-evident.
+
+About everything in the UML-table is related to the contents of this course in some way. Inheritance,
+interface implementations and multi interface implementations especially. One thing that stands out
+the most is maybe implementation of the enum class. I don't know why such a simple construction
+is so hard for me to take as a part of my coding. It's implementation in checking if a tool is compatible
+with a given metal is great.

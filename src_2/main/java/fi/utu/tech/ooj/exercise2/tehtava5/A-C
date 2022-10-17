@@ -1,0 +1,22 @@
+A)
+First of all, method piirrä is an abstract method which can only be implemented inside of an abtract class.
+Abstract classes and methods can be useful (over an interface) when we are in need for "more structure".
+By using an abstract class and methods we can access some other operations which would not be accessable via interface.
+
+It is also important to notice that the method piirrä is inherited from the class kuviointi to many other classes.
+It is a good practice because this will yield more robust code.
+
+B)
+Piirros1 implements one interface and piirros2 implements one interface and inherits one class. In the
+first case, asettelu is given as an attribute but in the second case, asettelu is made possible by extending class siksak
+which implements interface Asettelu.
+
+In the first case where Piirros1 only implements one interface we can achieve easier usage for the client,
+but at the same time we need to write more operations inside of this class which is not the most efficient way to write code.
+
+In the second case I can see atleast one downside. Implementing an interface and extending a class is considered
+bad practice in some cases because of its memory inefficiency. One upside we can achieve through this implementation
+is that we can use already defined methods and attributes which can yield more readable code.
+
+C)
+In Piirros3 we create an instance of Neliö utilising interface Kuviointi which is odd in my opinion
